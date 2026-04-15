@@ -1,0 +1,51 @@
+ PROJECT REPORT — EXPENSE TRACKER
+Project Title: TO-DO List 
+
+Internship: DecodeLabs Internship Program
+
+Submitted By: _Hiba Rani
+Course: Internship
+Submitted To: DecodeLabs
+Submission Date: 15-4-2026
+
+Title
+Expense Tracker System using Python
+________________________________________
+1. Introduction
+The Expense Tracker is a Python-based application designed to help users record and manage daily expenses. It allows continuous input of expenses and calculates the total expenditure using real-time processing.
+________________________________________
+2. Objectives
+•	To track daily expenses efficiently 
+•	To implement accumulator logic 
+•	To understand loops and input handling 
+•	To apply IPO (Input-Process-Output) model 
+________________________________________
+3. Technologies Used
+•	Python 
+•	Command Line Interface (CLI) 
+________________________________________
+4. Features
+•	Add multiple expenses 
+•	Continuous data entry 
+•	Calculate total spending 
+•	Exit option for user 
+________________________________________
+5. Methodology (IPO Model)
+Input:
+•	User enters expense amount 
+Process:
+•	Expense is added to total using accumulator 
+Output:
+•	Displays updated total expense 
+________________________________________
+6. Code Explanation
+•	A variable total is used to store accumulated expenses 
+•	A while loop is used for continuous input 
+•	Input is converted into numeric form (float) 
+•	Condition is used to exit program 
+__________________________
+8. Conclusion
+This project helped in understanding real-time data processing and accumulator patterns in Python.
+
+“This project was developed as part of DecodeLabs Internship to strengthen practical programming skills.”
+
