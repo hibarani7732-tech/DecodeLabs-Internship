@@ -1,0 +1,61 @@
+PROJECT REPORT — TO-DO LIST (CLI + GUI)
+Project Title: TO-DO List 
+
+Internship: DecodeLabs Internship Program
+
+Submitted By: _Hiba Rani
+Course: Internship
+Submitted To: DecodeLabs
+Submission Date: 15-4-2026
+Title: Student Task Management System using Python (CLI & GUI)
+________________________________________
+1. Introduction
+This project is a task management system designed for students to manage daily activities such as assignments, lectures, and projects. It is implemented in both CLI and GUI using Python.
+________________________________________
+2. Objectives
+•	To manage tasks efficiently 
+•	To use list and dictionary as data structures 
+•	To develop both CLI and GUI applications 
+________________________________________
+3. Technologies Used
+•	Python 
+•	CLI 
+•	Tkinter 
+________________________________________
+4. Features
+•	Add task 
+•	View tasks 
+•	Remove task 
+•	Mark task as done 
+•	Search task 
+•	GUI interface for better usability 
+________________________________________
+5. Data Structure Used
+•	List → stores all tasks 
+•	Dictionary → represents each task 
+o	id 
+o	title 
+o	status 
+________________________________________
+6. Methodology (IPO Model)
+Input:
+•	User enters task details 
+Process:
+•	Task stored in list 
+•	Updated based on user actions 
+Output:
+•	Displays task list with status 
+________________________________________
+7. GUI Description
+•	Input field for adding tasks 
+•	Buttons for actions (Add, Delete, Done) 
+•	Listbox to display tasks 
+________________________________________
+8. Code Explanation
+•	Functions used for modular design 
+•	Loop used for continuous operation 
+•	Tkinter used for GUI components 
+__________
+10. Conclusion
+This project demonstrates both backend logic and frontend interface development in Python.
+
