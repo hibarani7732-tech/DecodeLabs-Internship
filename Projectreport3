@@ -1,0 +1,53 @@
+PROJECT REPORT — PASSWORD GENERATOR
+Project Title: TO-DO List 
+
+Internship: DecodeLabs Internship Program
+
+Submitted By: _Hiba Rani
+Course: Internship
+Submitted To: DecodeLabs
+Submission Date: 15-4-2026
+
+Title
+Random Password Generator using Python
+________________________________________
+1. Introduction
+The Password Generator is a Python application that creates secure and random passwords based on user requirements. It enhances understanding of randomness and string manipulation.
+________________________________________
+2. Objectives
+•	To generate strong passwords 
+•	To use random module 
+•	To handle strings and characters 
+________________________________________
+3. Technologies Used
+•	Python 
+•	CLI 
+________________________________________
+4. Features
+•	Generate random passwords 
+•	User-defined password length 
+•	Combination of letters, digits, symbols 
+________________________________________
+5. Methodology
+Input:
+•	User enters desired password length 
+Process:
+•	Random characters are selected 
+•	Characters are combined to form password 
+Output:
+ 
+ 
+ 
+________________________________________
+6. Code Explanation
+•	Uses random module 
+•	Uses string characters (letters, digits, symbols) 
+•	Loop generates password of required length 
+________________________________________
+
+8. Conclusion
+This project improves understanding of randomness and secure coding practices.
+
+“This project was developed as part of DecodeLabs Internship to strengthen practical programming skills.”
+
+
