@@ -1,0 +1,52 @@
+[gui_todo1.py](https://github.com/user-attachments/files/26753794/gui_todo1.py)
+print("GUI is printing")
+import tkinter as tk
+from tkinter import messagebox
+
+tasks = []
+
+def refresh_list():
+    listbox.delete(0, tk.END)
+    for task in tasks:
+        listbox.insert(tk.END, f"{task['title']} [{task['status']}]")
+
+def add_task():
+    title = entry.get().strip()
+    if title:
+        tasks.append({"title": title, "status": "Pending"})
+        refresh_list()
+        entry.delete(0, tk.END)
+    else:
+        messagebox.showwarning("Warning", "Task cannot be empty")
+
+def delete_task():
+    try:
+        index = listbox.curselection()[0]
+        tasks.pop(index)
+        refresh_list()
+    except:
+        messagebox.showwarning("Warning", "Select a task")
+
+def mark_done():
+    try:
+        index = listbox.curselection()[0]
+        tasks[index]["status"] = "Done"
+        refresh_list()
+    except:
+        messagebox.showwarning("Warning", "Select a task")
+
+root = tk.Tk()
+root.title("Student To-Do List")
+root.geometry("400x400")
+
+entry = tk.Entry(root, width=40)
+entry.pack(pady=10)
+
+tk.Button(root, text="Add Task", command=add_task).pack()
+tk.Button(root, text="Delete Task", command=delete_task).pack()
+tk.Button(root, text="Mark as Done", command=mark_done).pack()
+
+listbox = tk.Listbox(root, width=50)
+listbox.pack(pady=20)
+
+root.mainloop()
